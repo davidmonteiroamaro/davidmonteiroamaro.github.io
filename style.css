@@ -675,6 +675,7 @@ margin: 10px auto 25px auto;
 :root {
     --background-all: #fff;
     --background-block: black;
+    --background-block2: #303234;
     --background-block-grid: #fff;
     --color-all: #000;
     --color-all-hover: #fff;
@@ -722,6 +723,17 @@ strong {
     margin-bottom: 20px;
 }
 
+.encadre_text2 {
+    margin: 10px 35% 10px 35%;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    color: blueviolet;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
   
 .grid {
     display: grid;
@@ -743,6 +755,14 @@ strong {
     text-align: center;
 }
 
+.encadre_bloc2 {
+    padding: 10px;
+    background-color: var(--background-block2);
+    border: 1px solid var(--border_bloc_2);
+    border-radius: 7px;
+    margin: 1%;
+    text-align: center;
+}
   
 .h2_title_bloc {
     background: transparent;
@@ -797,6 +817,11 @@ strong {
 }
 .section_color {
     background-color: blueviolet;
+    padding: 10px;
+}
+
+.section_color2 {
+    background-color: black;
     padding: 10px;
 }
   
@@ -863,4 +888,21 @@ strong {
     border-radius: 7px;
     margin: 1%;
     text-align: center;
+}
+
+.footer {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.footer h3{
+    color:white;
+}
+
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
 }
